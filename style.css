@@ -4,7 +4,7 @@ html, body{
     background: linear-gradient(-150deg, #E4A972, #b976e3) fixed;
 }
 
-body { font-family: 'Nanum Pen Script', cursive;
+body { font-family: 'Song Myung', serif;
        font-size: 50px;
        display:grid;
        grid-template-columns: 100px 1fr;
