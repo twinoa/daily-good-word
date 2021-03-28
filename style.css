@@ -1,0 +1,32 @@
+html, body{ 
+    height:100%;
+    text-align:center;
+    background: linear-gradient(-150deg, #E4A972, #b976e3) fixed;
+}
+
+body { font-family: 'Noto Serif KR', serif; 
+       font-size: 50px;
+       display:grid;
+       grid-template-columns: 100px 1fr;
+     }
+
+img {
+    margin-top:20px;    
+}
+
+article { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#Quotes { 
+    font-size:100%;
+    font-weight: bold; 
+}
+
+#Author { 
+    margin-top: 100px;
+    font-size:70%;
+}

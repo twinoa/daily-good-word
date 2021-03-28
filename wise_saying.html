@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>wise_saying</title>        
+    <meta charset="UTF-8">
+    <link href="style.css" media="all" rel="Stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="good_word.json"></script>    
+</head>
+
+<body>
+<form>
+    <a href="http://www.google.com"><img src="img/google.png" height="50", width="50", alt="google", title="google"></a>
+    <a href="http://www.naver.com"><img src="img/naver.png" height="50", width="50", alt="naver", title="naver"></a>
+    <a href="http://www.daum.net"><img src="img/daum.png" height="50", width="50", alt="daum", title="daum"></a>
+    <a href="http://www.youtube.com"><img src="img/youtube.png" height="50", width="50", alt="youtube", title="youtube"></a>
+    <a href="http://www.facebook.com"><img src="img/facebook.png" height="50", width="50", alt="facebook", title="facebook"></a>
+    <a href="http://www.twitter.com"><img src="img/twitter.png" height="50", width="50", alt="twitter", title="twitter"></a>
+    <a href="http://www.instagram.com"><img src="img/instagram.png" height="50", width="50", alt="instagram", title="instagram"></a>
+    <a href="http://www.netflix.com"><img src="img/netflix.png" height="50", width="50", alt="netflix", title="netflix"></a>
+</form> 
+
+<article>
+   <script>
+       var parseData = JSON.parse(JSON.stringify(DB));
+       var num = Math.floor((Math.random() * parseData.length));
+    </script>
+    
+    <div id = "Quotes">
+    <script>
+       document.write(parseData[num].Quotes);
+    </script>
+    </div>
+    
+    <div id = "Author">
+    <script>
+        document.write(parseData[num].Author);
+    </script>
+    </div>   
+</article>    
+</body>
+
+</html>
